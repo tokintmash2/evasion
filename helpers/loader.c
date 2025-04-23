@@ -4,7 +4,6 @@
 
 #define XOR_KEY 0xAA
 #define ORIGINAL_PAYLOAD_SIZE 110556160
-#define PADDING_SIZE (101 * 1024 * 1024)
 
 int main(int argc, char *argv[]) {
     

@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 #define XOR_KEY 0xAA
-#define PADDING_SIZE (101 * 1024 * 1024) // 101 MB
+#define PADDING_SIZE (100 * 1024 * 1024) // add 100 MB
 
 int main() {
     FILE *in, *out;
-    const char *inputFile = "app.exe";
+    const char *inputFile = "/helpers/app.exe";
     const char *outputFile = "app.enc";
 
     in = fopen(inputFile, "rb");
