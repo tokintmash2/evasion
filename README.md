@@ -36,7 +36,7 @@ The executable is placed on the desktop for easy access.
 
 ## Setup
 
-Set up a Windows 10 VM with Golang installed. Copy the "dont_hurt_me.victim" file to the Desktop.
+Set up a Windows 10 VM with Golang and C installed. Copy the "dont_hurt_me.victim" file to the Desktop.
 
 ### Build the malware executable
 
